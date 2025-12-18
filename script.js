@@ -26,6 +26,7 @@ const onClickFunc = () => {
     const input = document.getElementById('textToAdd').value;
     const heading = document.getElementById('heading');
 
-    heading.innerText = "Hello, " + input;
+    heading.innerText = "Hello " + input;
 }
+
 
